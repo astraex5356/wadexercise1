@@ -135,3 +135,7 @@ MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = '/static/'
+
+# Cookies Settings
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
